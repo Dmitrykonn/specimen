@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Flat design</title>
+ <style>
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
+
+#main {
+ width: 100%;
+ padding: 0;
+}
+.content-asset p {
+ margin: 0 auto;
+}
+
+.breadcrumb {
+ display: none;
+}
+
+
+.margin-top-10 {
+ padding-top: 10px;
+}
+.margin-bot-10 {
+ padding-bottom: 10px;
+}
+
+
+#flat h1 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 24px;
+ font-weight: 400;
+ text-transform: uppercase;
+ color: black;
+ padding: 0;
+ margin: 0;
+}
+
+#flat h2 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 70px;
+ letter-spacing: 10px;
+ text-align: center;
+ color: white;
+ font-weight: 400;
+ text-transform: uppercase;
+ z-index: 10;
+ opacity: .9;
+}
+
+#flat h3 {
+ font-family: 'Oswald', sans-serif;
+ font-size: 14px;
+ line-height: 0;
+ font-weight: 400;
+ letter-spacing: 8px;
+ text-transform: uppercase;
+ color: black;
+}
+
+#flat p {
+ font-family: 'Source Sans Pro', sans-serif;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 24px;
+}
+
+.first-character {
+ font-weight: 400;
+ float: left;
+ font-size: 84px;
+ line-height: 64px;
+ padding-top: 4px;
+ padding-right: 8px;
+ padding-left: 3px;
+ font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+
+.fl {
+ color: #346011;
+}
+
+.sl {
+ color: #f5cf22;
+}
+
+.tl {
+ color: #2e2d59;
+}
+
+
+#flat .title {
+ background: white;
+ padding: 60px;
+ margin: 0 auto;
+ text-align: center;
+}
+
+#flat .title h1 {
+ font-size: 35px;
+ letter-spacing: 8px;
+}
+
+
+#flat .block {
+ background: white;
+ padding: 6px;
+ width: 820px;
+ margin: 0 auto;
+ text-align: justify;
+}
+
+#flat .block-gray {
+ background: #f2f2f2;
+ padding: 6px;
+}
+
+#flat .section-overlay-mask {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background-color: black;
+ opacity: 0.70;
+}
+
+
+#flat .parallax-one {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/petukhovali/21/main/1655403672_1-gas-kvas-com-p-foto-voskhod-priroda-1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+#flat .parallax-two {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/petukhovali/21/main/1920x1200_840445_[www.ArtFile.ru].jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+#flat .parallax-three {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url(https://raw.githack.com/petukhovali/21/main/4507b6592a703b52d0bc05957538ae53.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+
+#flat .line-break {
+ background: linear-gradient(60deg, #346011, #f5cf22, #2e2d59);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#flat .line-break2 {
+ background: linear-gradient(60deg, #f5cf22, #2e2d59, #346011);
+ width: 100%;
+ margin: 0 auto;
+}
+
+#flat .line-break3 {
+ background: linear-gradient(60deg, #2e2d59, #346011, #f5cf22);
+ width: 100%;
+ margin: 0 auto;
+}
+
+/* responsive */
+
+@media screen and (max-width: 959px) and (min-width: 768px) {
+ #MDC .block {
+  padding: 40px;
+  width: 620px;
+ }
+}
+@media screen and (max-width: 767px) {
+ #flat .block {
+  padding: 30px;
+  width: 420px;
+ }
+ #flat h2 {
+  font-size: 30px;
+ }
+ #flat .block {
+  padding: 30px;
+ }
+ #flat .parallax-one, #flat .parallax-two, #flat .parallax-three {
+  padding-top: 100px;
+  padding-bottom: 100px;
+ }
+}
+@media screen and (max-width: 479px) {
+ #flat .block {
+  padding: 30px 15px;
+  width: 290px;
+ }
+}
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+</head>
+<body>
+ <div id="flat">
+  <section>
+   <div class="title">
+    <h3>Солнечная система</h3>
+    <h1>Солнце</h1>
+    <h3>Самая близкая Звезда к Земле</h3>
+   </div>
+  </section>
+  <section>
+   <div class="parallax-one">
+    <h2>Характеристики</h2>
+   </div>
+  </section>
+  <section>
+   <div class="block">
+    <p><span class="first-character fl">З</span>везда из Галактики Млечный Путь. Огромный, раскалённый, газообразный шар, постоянно излучающий потоки энергии. Единственный источник света и тепла в нашей звёздно-планетарной системе. Сейчас Солнце пребывает в возрасте жёлтого карлика.
+
+</p>
+    <p class="line-break margin-top-10"></p>
+    <p class="margin-top-10">Возраст &#8212; 4,57 миллиарда лет. Расстояние до Земли: 149 600 000 км. Масса: 332 982 масс Земли. Орбитальная скорость Солнца равна 217 км/с. Скорость вращения: 1,997 км/с. Радиус: 695-696 тыс. км. Температура: от 5 778 К на поверхности до 15 700 000 К в ядре. Температура короны: ~1 500 000 К. Солнце стабильно в своей яркости, оно находится в 15% самых ярких звёзд нашей Галактики. Излучает меньше ультрафиолетовых лучей, но обладает большей массой по сравнению с аналогичными звёздами.
+</p>
+   </div>
+  </section>
+  <section>
+   <div class="parallax-two">
+    <h2>Состав и строение</h2>
+   </div>
+  </section>
+  <section>
+   <div class="block">
+    <p><span class="first-character sl">П</span>о своему химическому составу наше светило ничем не отличается от других звёзд и содержит: 74,5% &#8212; водорода (от массы), 24,6% &#8212; гелия, менее 1% &#8212; иных веществ (азот, кислород, углерод, никель, железо, кремний, хром, магний и другие вещества). Внутри ядра идут беспрерывные ядерные реакции, превращающие водород в гелий. Абсолютное большинство массы Солнечной системы &#8212; 99,87% принадлежит Солнцу.</p>
+    <p class="line-break2 margin-top-10"></p>
+    <p class="margin-top-10">В самом центре тела нашей звезды расположено ядро. 
+	Оно занимает четверть радиуса Солнца. Именно тут &#171;бушуют&#187; термоядерные реакции, 
+	порождая видимое нам излучение. Вследствие огромных размеров, плотность вещества внутри светила
+	огромна &#8212 в 150 раз больше плотности воды. Далее находится зона лучистого переноса, по 
+	которой хаотично движутся фотоны. Удивительно, что в среднем достигают они следующего слоя 
+	за 170 тысяч лет. Конвективная зона &#8212 внешняя область Солнца, где движение плазмы 
+	происходит за счёт явления конвекции (тёплое устремляется наверх и остывает, холодное 
+	идёт вниз для нагревания). Между этими двумя областями располагается тонкий слой под 
+	названием &#171;тахоклин&#187; &#8212 область возникновения магнитного поля.</p>
+   </div>
+  </section>
+  <section>
+   <div class="parallax-three">
+    <h2>Жизненный цикл</h2>
+   </div>
+  </section>
+  <section>
+   <div class="block">
+    <p><span class="first-character tl">П</span>о всей видимости, Солнце своим появлением 
+	обязано протозвёздам предыдущих поколений, так как в его составе содержится значительное
+	количество металлов. Возраст его составляет 4,5 &#8212 4,75 млрд. лет, причём всё это 
+	время оно увеличивает свою яркость и температуру (разгорается). Магнитное поле нашей 
+	звезды имеет цикл изменения примерно равный 22 земным годам. Что равно двум периодам 
+	солнечной активности в 11 лет.</p>
+    <p class="line-break3 margin-top-10"></p>
+    <p class="margin-top-10">Такой физический процесс не может идти без потери массы водорода, 
+являющегося основным элементом в составе светила. Когда-нибудь это закончится, водород 
+сгорит и улетучиться, а гелий начнёт сжиматься. Размеры светила станут увеличиваться 
+вплоть до достижения пределов орбиты Земли. Солнце станет красным гигантом и будет 
+находиться в таком состоянии предположительно 120 млн. лет. Затем возникнет туманность 
+вследствие значительного уменьшения массы и гигантского расширения наружного слоя. 
+Из красного гиганта оно превратится в белого карлика, который почернеет через несколько триллионов лет.</p>
+   </div>
+  </section>
+ </div>
+</body>
+</html>
+<!-- partial -->
+  
+</body>
+</html>
